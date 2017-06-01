@@ -122,7 +122,7 @@ while True:
             driver.find_element_by_xpath("""//*[@id="vval"]""").send_keys(cvv)#CVV
             break 
         except Exception:
-            driver.find_element_by_xpath("""//*[@id="cvw"]""").send_keys(cvvt)
+            driver.find_element_by_xpath("""//*[@id="cvw"]""").send_keys(cvv)
             break 
     except Exception as E:
         ''
